@@ -1,8 +1,18 @@
 [package]
 name = "rauth"
+description = "Real-Evolution Authentication/Authorization service"
+readme = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[workspace]
+members = ["."]
+
+[workspace.package]
+authors = ["Ayman Al-Qadhi <alqd@protonmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace.dependencies]
