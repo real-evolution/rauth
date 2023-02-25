@@ -1,0 +1,8 @@
+[package]
+name = "rauth"
+description = "Real-Evolution Authentication/Authorization service"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
